@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    cursor: url(https://img.icons8.com/avantgarde/30/cursor.png), auto;
+}
+
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(45deg, royalblue 65%,darkorange 35%);
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+}
+
+main {
+    width: 50%;
+    margin: 150px auto;
+    
+}
+
+article {
+    background-color: white;
+    border-radius: 16px;
+    padding: 28px 32px;
+    box-shadow: 8px 8px darkorange, 16px 18px royalblue;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 500;
+    color: darkorange;
+    letter-spacing: 2px;
+    text-shadow: 3px 4px royalblue, 4px 5px darkorange;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkorange;
+    margin: 28px 0;
+    text-shadow: 2px 2px 1px royalblue;
+}
+
+.title::selection {
+    color: royalblue;
+}
+
+.subtitle::selection {
+    color: royalblue;
+}
+
+/* title {
+    width: fit-content;
+} */
+
+/* Section */
+
+section {
+    margin-top: 48px;
+    background-color: white;
+    padding: 12px 32px;
+    border-radius: 16px;
+    box-shadow: 8px 8px darkorange, 16px 18px royalblue;
+}
+
+.sneakers-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sneaker-container {
+    width: 280px;
+    border-radius: 12px;
+    height: 400px;
+    box-shadow: 12px 12px royalblue, 0 0 16px #EDFAFA;
+    margin-bottom: 32px;
+    transition: all 1s;
+}
+
+.sneaker-name {
+    color: royalblue;
+    text-shadow: 2px 2px darkorange;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 16px;
+}
+
+.sneaker-price {
+    padding-left: 16px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-shadow: 2px 2px royalblue;
+}
+
+.img-container {
+    background-size: cover !important;
+    background-position: cover !important;
+    background-repeat: no-repeat !important;
+    margin-bottom: 8px;
+    height: 75%;
+    border-radius: 12px 12px 0 0;
+}
+
+.img1 {
+    background: url(pngwing.com.png);
+}
+.sneaker-container:hover {
+    background-color: greenyellow;
+}
+
+div.footer {
+    margin-top: 48px;
+    background-color: white;
+    padding: 12px 32px;
+    border-radius: 16px;
+    box-shadow: 8px 8px darkorange, 16px 18px royalblue;;
+}
